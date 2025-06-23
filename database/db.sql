@@ -22,7 +22,7 @@ CREATE TABLE desk (
 CREATE TABLE player_character(
     character_id INT AUTO_INCREMENT PRIMARY KEY,
     character_name VARCHAR(100) NOT NULL,
-    player_id INT,
+    player_id INT,|
     FOREIGN KEY (player_id) REFERENCES user(user_id) ON DELETE CASCADE
 );
 
