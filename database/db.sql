@@ -48,6 +48,7 @@ CREATE TABLE player_character (
     class_id        INT UNSIGNED,
     weapon_id       INT UNSIGNED,
     character_name  VARCHAR(100) NOT NULL,
+    race            VARCHAR(50) NOT NULL,
     description     TEXT,
     level           INT NOT NULL DEFAULT 1,
     strength        INT NOT NULL,

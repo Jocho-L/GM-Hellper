@@ -1,0 +1,64 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+.font-medieval {
+  font-family: "MedievalSharp", cursive;
+}
+.card {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+}
+.btn {
+  background-color: #718096;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #a0aec0;
+}
+.btn-primary {
+  background-color: #8b5cf6;
+}
+.btn-primary:hover {
+  background-color: #a78bfa;
+}
+input,
+select {
+  background-color: #4a5568;
+  border: 1px solid #718096;
+  color: #e2e8f0;
+}
+.attribute-bar {
+  background-color: #4a5568;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+.attribute-fill {
+  background-color: #8b5cf6;
+  text-align: right;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+  transition: width 0.5s ease-in-out;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+.modal-content {
+  background-color: #2d3748;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
