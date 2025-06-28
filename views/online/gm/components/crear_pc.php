@@ -104,7 +104,7 @@
 
     <script>
         // --- CONFIGURACIÓN ---
-        const API_URL = '/GM-Hellper/app/controllers/gm/crearPJController.php';
+        const API_URL = '/GM-Hellper/app/controllers/gm/characterController.php';
 
         // Elementos del DOM
         const attributesContainer = document.getElementById('attributes');
